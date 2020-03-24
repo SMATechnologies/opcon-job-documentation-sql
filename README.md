@@ -1,19 +1,20 @@
-# Project Name
-Project description
+# OpCon job documentation SQL report
+This sql query outputs OpCon schedule/job documentation.
+
+# Prerequisites
+* OpCon 15.3+
+* MS SQL
+
+# Instructions
+Run the query from SSMS or an OpCon SQL Agent job.  You will possibly need to update the first line that starts with "use opconxps" to the name of your OpCon database.
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
-# Prerequisites
-
-
-# Instructions
-
-
 # License
-Copyright 2019 SMA Technologies
+Copyright 2020 SMA Technologies
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
