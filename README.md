@@ -4,9 +4,24 @@ This sql query outputs OpCon schedule/job documentation.
 # Prerequisites
 * OpCon 15.3+
 * MS SQL
+* Powershell v5.1+ (for HTML Report only)
 
 # Instructions
 Run the query from SSMS or an OpCon SQL Agent job.  You will possibly need to update the first line that starts with "use opconxps" to the name of your OpCon database.
+
+Powershell parameters (HTML Report only):
+*<b>Path</b> - Path for creating the report
+*<b>SQLServer</b> - Name of the sql server where the OpCon DB is stored
+*<b>SQLDB</b> - Name of the OpCon db
+*<b>SQLUser</b> - SQL Username
+*<b>SQLPassword</b> - SQL Password
+*<b>SMTP</b> - Email server (optional)
+*<b>To</b> - Email address to send to (optional)
+*<b>User</b> - Email user (optional)
+*<b>Password</b> - Email password (optional)
+*<b>Port</b> - Email server port (optional)
+*<b>Subject</b> - Email subject (optional)
+*<b>Body</b> - Email body (optional)
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
